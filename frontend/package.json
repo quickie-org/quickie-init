@@ -1,0 +1,22 @@
+{
+  "name": "frontend",
+  "version": "0.0.1",
+  "description": "quickie-frontend template",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "qucikie-frontend": "bin/index.js"
+  },
+  "scripts": {
+    "start": "node bin/index.js"
+  },
+  "keywords": [
+    "qucikie",
+    "frontend-template",
+    "backend-template",
+    "javascript , typescript"
+  ],
+  "repository": "quickie-org/quickie-init",
+  "author": "Mohammed Nayeem , Kaarthik Raja",
+  "license": "MIT"
+}
