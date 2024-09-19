@@ -1,7 +1,7 @@
 // ---------------- import statements -----------------------//
 import * as path from 'path';
 import * as fs from 'fs'
-import { errorHandler } from './utils/errorHandler';
+import { errorHandler } from './utils/errorHandler.js';
 
 
 // ---------------- mkdir function -----------------------//

@@ -1,7 +1,7 @@
 // ---------------- import statements -----------------------//
 import * as fs from 'fs';
 import shell from 'shelljs';
-import { errorHandler } from './utils/errorHandler';
+import { errorHandler } from './utils/errorHandler.js';
 // -----------------  postprocess-function  ------------------------ //
 export const PostProcess = async (prisma , git , npm , user_path) =>{
     if(npm){
