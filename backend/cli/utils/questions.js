@@ -18,7 +18,7 @@ export const QUESTIONS = [
         name : 'lang',
         type : 'list' ,
         message : "which one do you wanna use ? " ,
-        choices : ["javascript" , "typescript"] ,
+        choices : ["javascript" , "typescript" , "go-lang" , "flask"] ,
         default : "javascript" ,
         
     },
@@ -26,7 +26,7 @@ export const QUESTIONS = [
         name : 'db' ,
         type : 'list' ,
         message : 'which database you wanna use ? ' ,
-        choices : ['postgresql' , 'mongodb'] ,
+        choices : ['postgresql' , 'mongodb' , 'reddis'] ,
         default : 'postgresql',
         
     },

@@ -29,22 +29,22 @@ if(lang === 'javascript'){
 
     if(db === 'postgresql'){
         template_path = path.join(__parent_dir , 'templates' , 'javascript+postgresql');
-        console.log(`template-path  ${template_path}`);
+        //console.log(`template-path  ${template_path}`);
     }
     else{
         template_path = path.join(__parent_dir , 'templates' , 'javascript+mongodb');
-        console.log(`template-path  ${template_path}`);
+        //console.log(`template-path  ${template_path}`);
     }
 }
 else{
 if(db === 'postgresql'){
         template_path = path.join(__parent_dir , 'templates' , 'typescript+postgresql');
-        console.log(`template-path  ${template_path}`);
+        //console.log(`template-path  ${template_path}`);
 
     }
     else{
         template_path = path.join(__parent_dir , 'templates' , 'typescript+mongodb');
-        console.log(`template-path  ${template_path}`);
+        //console.log(`template-path  ${template_path}`);
     }
 
 }

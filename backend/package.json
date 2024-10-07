@@ -1,11 +1,11 @@
 {
-  "name": "backend",
-  "version": "0.0.1",
-  "description": "quickie-backend template",
+  "name": "qucikie-backend",
+  "version": "1.0.0",
+  "description": "quickie-backend template for generating backend using node and  typescript",
   "main": "index.js",
   "type": "module",
   "bin": {
-    "backend": "bin/index.js"
+    "quickie-init-backend": "bin/index.js"
   },
   "scripts": {
     "start": "node bin/index.js"

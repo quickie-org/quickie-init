@@ -15,7 +15,7 @@ export const renderTitle = async () =>{
       width: 'default',
       whitespaceBreak: true,
     });
-    console.log(gradient.vice.multiline(data));
+    console.log(data);
   } catch (err) {
     console.log('Something went wrong...');
     console.dir(err);
